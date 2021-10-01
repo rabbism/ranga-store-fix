@@ -19,14 +19,14 @@
 
 <body>
   <header>
-    <h1>Rabbi Super Shop</h1>
+    <h1 class="text-center">Rabbi Super Shop</h1>
   </header>
   <!-- all card showing -->
   <main class="main">
     <div class="search-field">
-      <div class="search-box">
-        <input id="input-field" class="search-field" type="text" />
-        <button type="button" class="btn btn-primary search-button" data-toggle="button" aria-pressed="false"
+      <div class="form-group text-center">
+        <input type="text" class="form-control d-inline w-50"  id="formGroupExampleInput" placeholder="Example input">
+        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false"
           autocomplete="off" id="search-btn" onclick="loadProducts()">
           Search
         </button>
@@ -52,7 +52,7 @@
             <tbody>
               <tr>
                 <th>Total Added-Products:</th>
-                <td>$ <span id="total-Products">0</span></td>
+                <td><span id="total-Products">0</span></td>
                 <td></td>
                 <td></td>
               </tr>
